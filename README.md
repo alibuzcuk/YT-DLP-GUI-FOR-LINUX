@@ -46,8 +46,8 @@ sudo pacman -S python3 tk
 ### Build AppImage
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yt-dlp-gui.git
-cd yt-dlp-gui
+git clone https://github.com/alibuzcuk/YT-DLP-GUI-FOR-LINUX.git
+cd YT-DLP-GUI-FOR-LINUX
 
 # Run build script
 chmod +x build.sh
