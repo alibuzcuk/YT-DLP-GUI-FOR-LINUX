@@ -33,11 +33,14 @@ That's it! No installation, no dependencies!
 
 ### Prerequisites
 ```bash
-# Ubuntu/Debian
+# Ubuntu/Debian based 
 sudo apt install python3 python3-pip python3-tk
 
 # Fedora/RHEL
 sudo dnf install python3 python3-pip python3-tkinter
+
+#Arch and based
+sudo pacman -S python3 tk
 ```
 
 ### Build AppImage
