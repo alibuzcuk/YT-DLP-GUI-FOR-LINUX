@@ -1,62 +1,6 @@
 # YT-DLP-GUI 🎥⬇️
 
 ![yt_downloader_logo](https://github.com/user-attachments/assets/c245fcbb-44fa-49cb-8288-66e9a91771ca)<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
-  <!-- Arka plan gradient -->
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FF0000;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#CC0000;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="playGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#F0F0F0;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#45a049;stop-opacity:1" />
-    </linearGradient>
-    
-    <!-- Gölge -->
-    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
-      <feOffset dx="0" dy="2" result="offsetblur"/>
-      <feComponentTransfer>
-        <feFuncA type="linear" slope="0.3"/>
-      </feComponentTransfer>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  
-  <!-- Ana kare - YouTube tarzı -->
-  <rect width="256" height="256" fill="url(#bgGrad)" rx="45"/>
-  
-  <!-- YouTube Play butonu -->
-  <g filter="url(#shadow)">
-    <rect x="48" y="68" width="160" height="100" fill="url(#playGrad)" rx="12"/>
-    <polygon points="100,88 100,148 160,118" fill="#FF0000"/>
-  </g>
-  
-  <!-- İndirme oku (aşağı) -->
-  <g filter="url(#shadow)">
-    <!-- Ok gövdesi -->
-    <rect x="115" y="170" width="26" height="45" fill="url(#arrowGrad)" rx="4"/>
-    <!-- Ok ucu -->
-    <polygon points="128,215 100,190 156,190" fill="url(#arrowGrad)"/>
-  </g>
-  
-  <!-- Dekoratif çizgiler (hareket etkisi) -->
-  <g opacity="0.3">
-    <line x1="90" y1="195" x2="70" y2="195" stroke="white" stroke-width="3" stroke-linecap="round"/>
-    <line x1="166" y1="195" x2="186" y2="195" stroke="white" stroke-width="3" stroke-linecap="round"/>
-    <line x1="90" y1="205" x2="75" y2="205" stroke="white" stroke-width="2" stroke-linecap="round"/>
-    <line x1="166" y1="205" x2="181" y2="205" stroke="white" stroke-width="2" stroke-linecap="round"/>
-  </g>
-</svg>
-
-<h3 align="center">Modern, user-friendly graphical interface for downloading YouTube videos on Linux</h3>
 
 ## ✨ Features
 
