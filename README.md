@@ -130,6 +130,9 @@ sudo apt install python3-tk
 
 # Fedora
 sudo dnf install python3-tkinter
+
+#Arch/Arch-based
+sudo pacman -S tk
 ```
 
 ### Download fails
